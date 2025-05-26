@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>RentalCameraApp</class>
+ <widget class="QWidget" name="RentalCameraApp">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>RasaRental</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="logoLabel"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="nameLabel">
+     <property name="text">
+      <string>Nama Penyewa:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="nameInput"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="itemTypeLabel">
+     <property name="text">
+      <string>Jenis Sewa:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="itemTypeCombo">
+     <item>
+      <property name="text">
+       <string>Kamera</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Lensa</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Kamera dan Lensa</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="cameraLabel">
+     <property name="text">
+      <string>Pilih Kamera:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="cameraCombo"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="lensLabel">
+     <property name="text">
+      <string>Pilih Lensa:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="lensCombo"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="daysLabel">
+     <property name="text">
+      <string>Lama Sewa (hari):</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QSlider" name="daysSlider">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="daysValueLabel"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="batteryLabel">
+     <property name="text">
+      <string>Jumlah Baterai Kamera:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QSlider" name="batterySlider">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="batteryValueLabel"/>
+   </item>
+   <item>
+    <widget class="QPushButton" name="rentButton">
+     <property name="text">
+      <string>Sewa Sekarang</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QListWidget" name="rentalList"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="footerLabel">
+     <property name="text">
+      <string>NIM: F1D022105 | Nama: Adhyatmika Eka Saputra</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
